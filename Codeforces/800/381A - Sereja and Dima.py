@@ -14,8 +14,8 @@ def scoreCard(n, arr):
             arr.pop(0)
         else:
             arr.pop(-1)
-    print(scoreSereja, scoreDima)
 
+    print(scoreSereja, scoreDima)
 
 if __name__ == "__main__":
     n = int(input())
