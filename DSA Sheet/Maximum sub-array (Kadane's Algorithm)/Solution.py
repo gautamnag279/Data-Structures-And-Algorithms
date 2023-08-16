@@ -7,10 +7,4 @@ def maxSubArraySum(arr, N):
         maxSum = max(maxSum, currentSum)
         if currentSum < 0:
             currentSum = 0
-    return maxSum
-
-
-if __name__ == "__main__":
-    n = int(input())
-    arr = list(map(int, input().split()))
-    print(maxSubArraySum(arr, n))
+    return maxSum 
