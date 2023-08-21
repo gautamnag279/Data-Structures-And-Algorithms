@@ -1,3 +1,4 @@
+# Requires the understanding of arthematic progression
 def solve(n):
     pairs = n//2
     if n%2 == 1:
