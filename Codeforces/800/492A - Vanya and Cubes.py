@@ -5,10 +5,11 @@ def solve(n):
     while sum <= n:
         i += 1
         element += i
-        if (sum>n):
+        if (sum > n):
             break
         sum += element
-    print(i-1) 
+    print(i-1)
+
 
 if __name__ == "__main__":
     solve(int(input()))
