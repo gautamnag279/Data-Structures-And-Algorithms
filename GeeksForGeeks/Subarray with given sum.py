@@ -25,6 +25,6 @@ def subArraySum(arr, n, s):
             return [1, i+1]
         diff = currSum - s
         if diff in hashMap:
-            return [hashMap[diff], i]
+            return [hashMap[diff]+2, i+1]
         hashMap[currSum] = i
     return [-1]
