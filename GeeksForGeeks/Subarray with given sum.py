@@ -1,4 +1,4 @@
-# Approach 1/2
+# Approach 1/2 - Sliding Window
 def subArraySum(arr, n, s):
     left, right, currSum = 0, 0, 0
     for i in range(n):
@@ -15,7 +15,7 @@ def subArraySum(arr, n, s):
     else:
         return left+1, right+1
 
-# Approach 2/2
+# Approach 2/2 - Hashmap Lookup
 def subArraySum(arr, n, s):
     hashMap = {}
     currSum = 0
