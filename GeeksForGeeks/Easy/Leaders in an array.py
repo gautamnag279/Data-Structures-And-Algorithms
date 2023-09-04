@@ -8,6 +8,3 @@ def leaders(A, N):
             leaders.append(max)
     leaders.reverse()
     return leaders
-
-
-print(leaders([16, 17, 4, 3, 5, 2], 6))
