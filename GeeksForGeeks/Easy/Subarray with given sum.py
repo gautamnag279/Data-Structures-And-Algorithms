@@ -10,7 +10,7 @@ def subArraySum(arr, n, s):
         if (currSum == s):
             right = i
             break
-    if (currSum != s):
+    if (currSum != s) or s == 0:
         return [-1]
     else:
         return left+1, right+1
