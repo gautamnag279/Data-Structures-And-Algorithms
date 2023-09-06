@@ -1,4 +1,6 @@
 def majorityElement(A, N):
+    if N == 1:
+        return A[0]
     count = 0
     A.sort()
     for i in range(N-1):
