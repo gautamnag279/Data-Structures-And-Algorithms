@@ -8,5 +8,5 @@ def duplicates(arr, n):
             seen.add(i)
 
     if not duplicates:
-        return -1
+        return [-1]
     return sorted(list(duplicates))
