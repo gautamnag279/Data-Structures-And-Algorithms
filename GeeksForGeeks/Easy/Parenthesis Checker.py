@@ -8,7 +8,3 @@ def ispar(x):
     if len(x):
         return False
     return True
-
-
-s = "(){(}[])}"
-print(ispar(s))
