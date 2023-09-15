@@ -1,6 +1,6 @@
 > Rules to get time complexity:
     - prioritize the highest degree polynomial
-    - ignore attached constants
+    - ignore other supporting constants
 
 
 > Ex: Sum of an array
@@ -16,14 +16,29 @@ i.e
     - time complexity is O(n)
 
 
-> Ex: Sum of 2 matrices of size n X n
+> Ex: Sum of 2 matrices [n X n]
 -------------------------------------------------------------
 def sum(A, B, n):
     for i in range(n):                      = n+1 
         for j in range(n):                  = n*(n+1) 
-            C[i, j] += A[i, j] + B[i, j]    = n*n 
-    return C[i, j]                          = 1
+            C[i,j] += A[i,j] + B[i,j]       = n*n 
+    return C[i,j]                           = 1
 
                                        f(n) = 2n^2 + 2n + 1
 i.e.
     - time complexity is O(n^2)
+
+
+Ex: Multiplication of 2 matrices [n X n]
+-------------------------------------------------------------
+def multiply(A, B, n):
+    for i in range(n):                      = n+1
+        for j in range(n):                  = n*(n+1)
+            C[i,j] = 0                      = n*n
+            for k in range(n):              = n*n*(n+1)
+                C[i,j] += A[i,j] * B[i,j]   = n*n*n
+    return C[i,j]                           = 1
+
+                                      f(n)  = 2n^3 + 3n^2 + 2n + 1
+i.e.
+    - time complexity is O(n^3)
