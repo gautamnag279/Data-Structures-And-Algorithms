@@ -1,0 +1,2 @@
+Algorithm -> Step-by-step way to solve a problem.
+Use simple language to write it.
