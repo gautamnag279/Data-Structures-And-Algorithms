@@ -1,0 +1,12 @@
+> Algorithm to swap two numbers:
+-------------------------------------
+function swap(a, b):
+    temp = a        = (1 unit)
+    a = b           = (1 unit)
+    b = temp        = (1 unit)
+               
+               f(n) = 3 units of time
+
+i.e 
+    - the time complexity is a function of constant time
+    - or in general it has O(1) time complexity
