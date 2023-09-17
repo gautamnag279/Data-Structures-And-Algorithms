@@ -2,15 +2,10 @@ def printFibb(n):
     if n == 1:
         return [1]
 
-    first = 1
-    second = 1
-    lst = [first, second]
-    next = 0
+    sequence = [1, 1]
 
-    for i in range(n-2):
-        next = first + second
-        first = second
-        second = next
-        lst.append(second)
+    while len(sequence) < n:
+        next = sequence[-1] + sequence[-2]
+        sequence.append(next)
 
-    return lst
+    return sequence
