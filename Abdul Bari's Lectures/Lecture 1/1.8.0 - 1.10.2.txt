@@ -1,0 +1,7 @@
+The following lectures don't cover DSA so have been skipped: 
+
+- 1.8.1 Asymptotic Notations Big Oh - Omega - Theta #1
+- 1.8.2 Asymptotic Notations - Big Oh - Omega - Theta #2
+- 1.9 Properties of Asymptotic Notations
+- 1.10.1 Comparison of Functions #1
+- 1.10.2 Comparison of Functions #2
