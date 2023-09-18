@@ -1,0 +1,32 @@
+> Example 1: O(logN)
+----------------------------------
+for(i = 0; i < N; i = i*2) {
+    code;
+}
+
+
+> Example 2: O(logN)
+----------------------------------
+for(i = 0; i < N; i = i/2) {
+    code;
+}
+
+
+> Example 3: O(logP) or O(log(logN))
+----------------------------------
+P = 0
+for (i = 1; i < N; i = i*2) {
+    code;
+}
+for (j = 1; j < P; j = j*2) {
+    code;
+}
+
+
+> Example 4: O(NlogN)
+----------------------------------
+for (i = 0; i < N; i++) {
+    for (j = 1; j < N; j = j*2) {
+        code;
+    }
+}
