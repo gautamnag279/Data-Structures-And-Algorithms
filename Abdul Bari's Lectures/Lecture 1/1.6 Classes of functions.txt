@@ -1,0 +1,7 @@
+> Types of time functions:
+
+O(1) = Constant
+O(logn) = Logarithmic
+O(n) = Linear
+O(n^k) = Quadratic, Cubic...so on
+O(2^n) = Exponential
