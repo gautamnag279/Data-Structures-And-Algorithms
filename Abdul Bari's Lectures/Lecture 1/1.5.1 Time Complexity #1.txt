@@ -1,32 +1,25 @@
-Incrementing for loop: O(n)
-------------------------------
-for i in range(0, n):
+> Incrementing for loop: O(N)
+-----------------------------------------
+for i in range(0, N):
     {code}
 
 
-Decrementing for loop: O(n)
-------------------------------
-for i in range(n, -1, -1):
+> Decrementing for loop: O(N)
+-----------------------------------------
+for i in range(N, -1, -1):
     {code}
 
 
-> K-Nested for loop: O(n^k)
-------------------------------
-for i in range(n):
+> K-Nested for loop: O(N^k)
+-----------------------------------------
+for i in range(N):
     {for loop}
         {for loop}
-            ...
+            ...k times
 
 
-> Dependant-nested for loop: O(n^2)
-------------------------------
-for i in range(n):
+> Dependant for loop: O(N^2)
+-----------------------------------------
+for i in range(N):
     for j in range(i):
         {code}
-
-> Coditional for/while loop: O(sqrt(n))
-------------------------------
-p = 0
-while p <= n:
-    p = p + i
-    i = i + 1
