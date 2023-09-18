@@ -1,0 +1,14 @@
+- A big problem 'P' should broken into sub problems P1, P2, P3...Pk
+- Combine P1, P2, P3...Pk to solve P
+- i.e. Applying Recursion
+
+For example: If a big problem P can be solved with linear search and we divide into k sub-problems then each of those P(i) problems must also be solved using linear search.
+
+-----------------------------------
+Types of problems under Recursion
+-----------------------------------
+1. Binary search
+2. Maximum & Minimum
+3. Merge Sort
+4. Quick Sort
+5. Strassem's matrix multiplication
