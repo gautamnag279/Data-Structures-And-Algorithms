@@ -7,3 +7,15 @@ while (k<N) {
     k = k + i;
     i = i + 1;
 }
+
+# Note:
+    - We cannot take it as a rule that if a conditinal statement is there the time complexity will be different:
+
+> Example 2: O(N)
+-----------------------------------
+while (m != n) {
+    if (m > n)
+        m = m - n
+    else
+        n = n - m
+}
