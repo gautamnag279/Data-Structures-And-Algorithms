@@ -1,6 +1,7 @@
+--------------------
 Algorithms Overview
---------------------------------------------
-> step-by-step way to solve a problem
+--------------------
+
 > use simple language to write it
 > hardware and OS independent
 > algorithms are analyzed, whereas code is tested

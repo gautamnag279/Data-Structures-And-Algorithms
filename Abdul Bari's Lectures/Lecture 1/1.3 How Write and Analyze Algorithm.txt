@@ -1,5 +1,7 @@
-> Algorithm to swap two numbers:
--------------------------------------
+---------------------------------
+Algorithm to swap two numbers:
+---------------------------------
+
 def swap(a, b):
     temp = a        = (1 unit)
     a = b           = (1 unit)

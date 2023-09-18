@@ -1,25 +1,29 @@
-> Incrementing for loop: O(N)
------------------------------------------
+------------------------------
+Incrementing for loop: O(N)
+------------------------------
 for i in range(0, N):
     {code}
 
 
-> Decrementing for loop: O(N)
------------------------------------------
+------------------------------
+Decrementing for loop: O(N)
+------------------------------
 for i in range(N, -1, -1):
     {code}
 
 
-> K-Nested for loop: O(N^k)
------------------------------------------
+------------------------------
+K-Nested for loop: O(N^k)
+------------------------------
 for i in range(N):
     {for loop}
         {for loop}
             ...k times
 
 
-> Dependant for loop: O(N^2)
------------------------------------------
+------------------------------
+Dependant for loop: O(N^2)
+------------------------------
 for i in range(N):
     for j in range(i):
         {code}

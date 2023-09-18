@@ -3,8 +3,9 @@
     - ignore other supporting constants
 
 
-> Ex: Sum of an array
--------------------------------------------------------------
+----------------------
+Ex: Sum of an array
+----------------------
 def sum(arr, n):
     sum = 0                 = 1 
     for i in range(n):      = n+1 
@@ -16,8 +17,9 @@ i.e
     - time complexity is O(n)
 
 
-> Ex: Sum of 2 matrices [n X n]
--------------------------------------------------------------
+---------------------------------
+Ex: Sum of 2 matrices [n X n]
+---------------------------------
 def sum(A, B, n):
     for i in range(n):                      = n+1 
         for j in range(n):                  = n*(n+1) 
@@ -29,8 +31,9 @@ i.e.
     - time complexity is O(n^2)
 
 
+------------------------------------------
 Ex: Multiplication of 2 matrices [n X n]
--------------------------------------------------------------
+------------------------------------------
 def multiply(A, B, n):
     for i in range(n):                      = n+1
         for j in range(n):                  = n*(n+1)

@@ -1,11 +1,14 @@
+-----------------
 Priori Analysis
---------------------------------
+-----------------
+
 > done on algorithms
 > language and hardware independent
 > is a function of time and space
 
+-----------------
 Posteriori Testing
----------------------------------
+-----------------
 > done on programs
 > language and hardware dependent
 > measured in bytes and watch time 
