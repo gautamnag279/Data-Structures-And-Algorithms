@@ -4,7 +4,7 @@ Say we have array 'arr' where we have to find the a value 'k' inside an aray:
 Example 1:
 -----------
 arr = [11, 6, 2, 5, 9, 7, 64, 3, 16, 18]
-k = 7
+k = ?
 Algorithm = Linear search
 
 Best Case >  When k = 11, we find k at the first index, i.e O(1)
@@ -20,7 +20,7 @@ Now:
 Example 2:
 ----------
 arr = [20, 10, 15, 30, 25, 40]
-k = 7
+k = ?
 Algorithm = Binary search
 
 Best Case > k = 20, we find k at the root element, i.e. O(1)
