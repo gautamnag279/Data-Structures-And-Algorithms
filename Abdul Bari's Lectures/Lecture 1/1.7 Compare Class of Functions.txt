@@ -1,0 +1,12 @@
+Time functions in the order of their weightage:
+
+[Top -> Bottom] = [Best -> Worst]
+
+1
+logn
+sqrt(n)
+n
+n(logn)
+n^k (k > 1)
+2^k (k > 1)
+n^n
