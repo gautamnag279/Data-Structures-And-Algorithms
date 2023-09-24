@@ -12,7 +12,10 @@ def getMinDiff(arr, n, k):
     for i in range(n-1):
         curr_tallest = max(arr[i]+k, tallest)
         curr_shortest = min(arr[i+1]-k, shortest)
-        
-        diff = min(diff, curr_tallest - curr_shortest)
+
+        if curr_shortest < 0:
+            continue
+        else:
+            diff = min(diff, curr_tallest - curr_shortest)
     
     return diff
