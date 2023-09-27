@@ -2,7 +2,9 @@ def printClosest(arr, brr, arrSize, brrSize, target):
     diff = float('inf')
     curr_sum = 0
 
-    left_index, right_index = 0, brrSize-1
+    left_index = 0
+    right_index = brrSize - 1
+    
     pairs = None
 
     while left_index < arrSize and right_index >= 0:
