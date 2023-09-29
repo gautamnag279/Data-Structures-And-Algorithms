@@ -14,9 +14,9 @@ Algorithm:
 
 Implementation:
 
-def BinarySearch(arr, target, n):
+def BinarySearch(arr, size, target):
     low = 0
-    high = n-1
+    high = size - 1
 
     while low <= high:
         mid = math.floor((low + high)/2)
