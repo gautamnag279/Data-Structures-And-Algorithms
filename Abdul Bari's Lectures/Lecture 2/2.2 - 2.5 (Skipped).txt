@@ -1,0 +1,9 @@
+The following lectures cover algebraic analysis of recurrence relations, so have been skipped: 
+
+- 2.2 Masters Theorem Decreasing Function
+- 2.3.1 Recurrence Relation Dividing Function T(n)=T(n/2)+1 #1
+- 2.3.2 Recurrence Relation Dividing [ T(n)=T(n/2)+ n]. #2
+- 2.3.3 Recurrence Relation [ T(n)= 2T(n/2) +n] #3
+- 2.4.1 Masters Theorem in Algorithms for Dividing Function #1
+- 2.4.2 Examples for Master Theorem #2
+- 2.5 Root function (Recurrence Relation)
