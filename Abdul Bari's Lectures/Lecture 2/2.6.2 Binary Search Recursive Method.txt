@@ -1,0 +1,13 @@
+> Basic Recursive Algorithm:
+
+def BinarySearch(arr, target):
+    if not arr:
+        return -1
+    mid = len(arr)//2
+
+    if arr[mid] == target:
+        return mid
+    elif target < arr[mid]:
+        return BinarySearch(arr[:mid], target)
+    else:
+        return BinarySearch(arr[mid:], target)
