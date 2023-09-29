@@ -1,0 +1,11 @@
+--------------
+Example 1
+--------------
+def Test(n):        - T(n)
+    if n > 0: 
+        print(n)    - 1
+        Test(n-1)   - T(n-1)
+        Test(n-1)   - T(n-1)
+
+> T(n) = 2*T(n-1) + 1
+> O(n) = O(2^n)
