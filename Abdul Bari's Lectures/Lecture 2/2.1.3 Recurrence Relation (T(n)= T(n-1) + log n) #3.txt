@@ -1,0 +1,30 @@
+Consider the following program:
+
+def Test(n):
+    if (n > 0):
+        for i in range(0, n, 2):
+            print(n)
+        Test(n-1)
+
+Then:
+    > Recurrence relation is given by:
+
+    def Test(n):                        - T(n)
+        if (n > 0):                     
+            for i in range(0, n, 2):    
+                print(n)                - log(n)
+            Test(n-1)                   - T(n-1)
+
+    > T(n) = T(n-1) + log(n)
+
+And:
+    > Time complexity is given by:
+
+    def Test(n):                        - T(n)
+        if (n > 0):                     
+            for i in range(0, n, 2):    
+                print(n)                - log(n)
+            Test(n-1)                   - T(n-1)
+
+    > log(n) + log(n-1) + log (n-2) + ... + log2 + log1 = log[n + n-2 + ... + 2 + 1] = log(n!)
+    > O(log(n!)) or O(nlogn)
