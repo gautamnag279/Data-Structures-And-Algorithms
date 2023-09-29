@@ -1,0 +1,34 @@
+Consider the following function:
+
+def Test(n):
+    if n > 0:
+        for i in range(n):
+            print(n)
+        Test(n-1)
+
+Then:
+    > For recurrence function instead of 'f', 'T' is used
+    > So, the recurrence relation will be given by:
+
+    def Test(n):                    - T(n)
+        if n > 0:                   - 1
+            for i in range(n):      - n+1
+                print(n)            - n
+            Test(n-1)               - T(n-1)
+    
+    > i.e T(n) = T(n-1) + 2n + 2
+
+Now:
+    > For calculating time complexity analysis the recurrence call only
+        
+    def Test(n):                - T(n)
+    if n > 0:                   - ignore
+        for i in range(n):      - ignore
+            print(n)            - ignore
+        Test(n-1)               - T(n-1)
+    
+    > T(n) will be called until n = 0
+    > So the program runs for: T(n), T(n-1), T(n-2), ....T(2), T(1), T(0)
+    > Summing up the time taken: n + (n-1) + (n-2) + (n-3) + ... + 3 + 2 + 1 + 0 = n(n+1)/2 = [n^2 + n]/2
+    
+    > i.e Time complexity = O(n^2)    
