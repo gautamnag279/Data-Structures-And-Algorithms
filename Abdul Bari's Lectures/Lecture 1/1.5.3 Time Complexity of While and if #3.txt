@@ -10,7 +10,7 @@ while (k<N) {
 }
 
 # Note:
-    - We cannot take it as a rule that if a conditinal statement is there the time complexity will be different:
+    - We cannot take it as a rule that if a conditional statement is there the time complexity will be different:
 
 ------------------
 Example 2: O(N)
