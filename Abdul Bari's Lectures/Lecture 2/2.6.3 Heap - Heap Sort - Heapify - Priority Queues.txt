@@ -1,0 +1,81 @@
+> If node is at index i:
+    - its left child is at 2*i
+    - its right child is at (2*i) + 1
+    - its parent is at floor(i/2)
+
+-----------------
+Example Tree: 1
+----------------- 
+> If arr = [A,B,C,D,E,F,G] then its binary tree is depicted as:
+            A
+          /   \
+        B       C
+       / \     / \
+      D   E   F   G
+
+-----------------
+Example Tree: 2
+-----------------  
+> If arr = [A,B,C,D,E] then its binary tree is depicted as:
+            A
+          /   \
+        B       C
+       / \      
+      D   E      
+
+-----------------
+Example Tree: 3
+-----------------
+> If arr = [A,B,C,_,_,D,E] then its binary tree is depicted as:
+            A
+          /   \
+        B       C
+               / \
+              D   E
+
+
+- Full binary tree
+    > has maximum number of nodes possible
+    > adding any additional node will increase the height of the tree
+    > a tree with height 'h' will have 2^(h+1) - 1 nodes
+
+- Complete binary tree
+    > should have 0 missing elements
+    > minimum height of a complete binary tree will be log(n)
+    > example: heap data structure
+
+
+# Note: 
+- A full binary tree is always a complete binary tree, but a complete binary tree is not always a full binary tree.
+    ~ Example Tree: 1 is full, so it also complete
+    ~ Example Tree: 2 is only complete
+    ~ Example Tree: 3 is neither full nor complete
+- A complete binary tree is already a full binary tree upto height 'h-1'
+
+
+- Heap:
+    > Always a complete binary tree
+    > Max Heap: root will have the maximum value and every node will have the value higher than all its children
+    > Min Heap: root will have the minimum value and every node will have the value lower than all its children
+
+- Insertion in heap:
+    > always insert the element at the lowest child node
+    > then move up the tree while comparing each child to its parent and re-order the tree
+    > adjustment is done from top to bottom
+    > Time complexity: 
+        ~ Worst case = O(logN), where 'N' is the height of the tree.
+        ~ Best case = O(1)
+
+- Deletion in heap
+    > only the root element can be deleted
+    > after deletion, the last element of the tree takes the place of the now-empty root
+    > traverse the tree again and adjust the elements of the now modified tree to maintain a min/max heap structure
+    > adjustment is done from bottom to top
+    > Time complexity: 
+        ~ Worst case = O(logN), where 'N' is the height of the tree.
+        ~ Best case = O(1)
+
+- HeapSort
+    > perform deletion on a max-heap to get a sorted array
+
+- any heap with a priority to any given element is called a priority queue 
